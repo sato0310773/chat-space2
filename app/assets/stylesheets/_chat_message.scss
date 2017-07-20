@@ -13,13 +13,13 @@
                               &__user-name {
                                     display: inline-block;
                                     font-weight: bold;
-                                    color: #434A54;
+                                    color: $gray;
                                     margin-right: 10px;
                                     font-style: 16px;
                               }
                               &__date {
                                     display: inline-block;
-                                    color: #434A54;
+                                    color: $gray;
                                     font-size: 12px;
                               }
                         }
@@ -27,7 +27,7 @@
                               float: left;
                               p{
                                     font-size: 14px;
-                                    color: #434A54;
+                                    color: $gray;
                               }
                         }
                         .text-content{
