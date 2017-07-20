@@ -24,12 +24,10 @@
               Title
             %ul.left-header__members
               Header_Member
-              %li.member
-                Member
           .right-header
             %a.right-header__button
               Edit
-        .messages.js-messages
+        .messages
           .whole-messages
             .message
               .info
@@ -42,11 +40,3 @@
             .form__mask
             %i.fa.fa-picture-o.icon
           %input.form__submit{type: "submit" , value: "Send"}
-/ !!!
-/ %html
-/   %head
-/     %meta{ content: "text/html; charset=UTF-8", http: { equiv: "Content-Type" } }/
-/     %title ChatSpace
-/     = stylesheet_link_tag    'application', media: 'all', data: { turbolinks: { track: true } }
-/     = javascript_include_tag 'application', data: {turbolinks: { track: true } }
-/     = csrf_meta_tags
