@@ -3,7 +3,7 @@
       .header{
             background-color: $white;
             height: 100px;
-            padding: 0 40px;
+            padding: 0 40px 0 40px;
             border: #eeeeee;
             .left-header{
                   margin: 35px 0 15px 0;
@@ -12,6 +12,7 @@
                   .left-header__title{
                         font-size: 20px;
                         color: #333333;
+                        float: left;
                   }
                   .left-header__members{
                         ul{
