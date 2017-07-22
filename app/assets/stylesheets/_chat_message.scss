@@ -1,0 +1,39 @@
+.chat{
+      .messages{
+            .whole-messages{
+                        background-color: #FAFAFA;
+                        height: calc(100vh - 190px);
+                        padding: 0 40px;
+                        overflow: scroll;
+                  .message{
+                              padding: 46px 0 10px 0;
+                              float: left;
+                        .info {
+                                    margin-bottom: 10px;
+                              &__user-name {
+                                    display: inline-block;
+                                    font-weight: bold;
+                                    color: $gray;
+                                    margin-right: 10px;
+                                    font-style: 16px;
+                              }
+                              &__date {
+                                    display: inline-block;
+                                    color: $gray;
+                                    font-size: 12px;
+                              }
+                        }
+                        .text{
+                              float: left;
+                              p{
+                                    font-size: 14px;
+                                    color: $gray;
+                              }
+                        }
+                        .text-content{
+                              font-size: 14px;
+                        }
+                  }
+            }
+      }
+}

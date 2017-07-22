@@ -1,0 +1,42 @@
+%body
+  .notification
+    %p  チャットグループが作成されました。
+    .wrapper
+      .side-bar
+        .header
+          %h3.header__name
+            Header_Name
+          %ul.header__lists
+            %li.list
+              %i.fa.fa-cog.icon
+            %li.list
+              %i.fa.fa-pencil-square-o.icon
+        .groups
+          .group
+            .group__name
+              Name
+            .group__message
+              Message
+      .chat
+        .header
+          .left-header
+            .left-header__title
+              Title
+            %ul.left-header__members
+              Header_Member
+          .right-header
+            %a.right-header__button
+              Edit
+        .messages
+          .whole-messages
+            .message
+              .info
+                .info__user-name User_Name
+                .info__date 2017/06/02 04:30
+              .text
+                %p.text_content Message
+        .form
+          %input.form__message{type: "text" , placeholder: "type a message"}
+            .form__mask
+              %i.fa.fa-picture-o.icon
+          %input.form__submit{type: "submit" , value: "Send"}
